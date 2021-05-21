@@ -1,0 +1,64 @@
+:root {
+    --ltpurp: rgb(177, 154, 212);
+    --dkpurp: rgb(65, 41, 144);
+    --wtsmoke: whitesmoke;
+    --ltgrey: rgb(160, 159, 163);
+    background-size: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive, sans-serif;
+}
+
+body {
+    background-color: #005675;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+}
+
+header {
+    margin-top: 75px;
+}
+
+h1 {
+    color:rgb(35, 7, 87)
+}
+
+.row {
+    line-height: 70px;
+}
+
+.col-1 {
+    border: dashed 1px var(--ltgrey);
+    background: rgb(214, 214, 214); 
+    font-weight: 500;
+}
+
+.col-10 {
+    border: solid 1px var(--ltpurp); 
+    background: var(--ltpurp); 
+}
+
+.col {
+    border: solid 1px var(--dkpurp);
+    background: var(--dkpurp); 
+    color: var(--wtsmoke);
+}
+
+textarea {
+    height: 80px;
+}
+
+footer {
+    margin-top: 30px;
+    bottom: 0px;
+    width: 100%;
+    background: var(--gldyellow);
+    color: var(--dkblue);
+    line-height: 10px;
+    font-weight: 600;
+}
+
+footer a {
+    color: var(--dkblue);
+    text-decoration: none;
+    font-weight: 900;
+}
