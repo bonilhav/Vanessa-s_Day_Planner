@@ -64,9 +64,9 @@ footer a {
 }
 
 .past {
-    background-color: red
+    background-color: rgb(255, 145, 145)
 };
 
 .present {
-    background-color: green
+    background-color: rgb(85, 136, 80)
 };

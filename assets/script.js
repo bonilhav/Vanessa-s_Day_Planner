@@ -34,7 +34,7 @@ function cssUpdater () {
         } else if(timeKey === hour) {
             $(this).addClass("present")
         }
-    })
-}
+    });
+};
 
 cssUpdater()
