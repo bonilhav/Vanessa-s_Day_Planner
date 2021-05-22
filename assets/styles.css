@@ -62,3 +62,11 @@ footer a {
     text-decoration: none;
     font-weight: 900;
 }
+
+.past {
+    background-color: red
+};
+
+.present {
+    background-color: green
+};
